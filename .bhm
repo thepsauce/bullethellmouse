@@ -1,0 +1,5 @@
+__PROJECT_FILE=true
+project_name="bhm"
+project_source_dirs=( "src" )
+project_common_flags=( -Wall -Wextra -Werror -Isrc -g )
+project_linker_libs=( -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_gfx -lm )
